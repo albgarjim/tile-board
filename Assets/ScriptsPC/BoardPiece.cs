@@ -1,14 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BoardPiece {
-	public string name = ".";
-	public string owner;
-	public bool placed = false;
+	public GameObject model;
+	public Vector3 pos;
+	public Glob.locat locat = Glob.locat.NONE;
+	public int st_id;
 
 	public BoardPiece(){
-
+		model = (GameObject)GameObject.Instantiate(Resources.Load("Prefabs/base"));
 	}
 
-	public BoardPiece(string _name){
-		name = _name;
+}
+
+public class Mage : BoardPiece {
+	public Mage(){
+		model = (GameObject)GameObject.Instantiate(Resources.Load("Prefabs/mage"));
 	}
 }
