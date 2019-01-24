@@ -7,16 +7,12 @@ using UnityEngine.EventSystems;
 public class Player {
 	public int health = 100;
 	public int gold = 5;
-	public string name;
 
 	public int max_board;
 	public int max_stash;
+	public Glob.player name;
 
-	public Vector3 offset;
-
-	public List<BoardCell> stash = new List<BoardCell>();	
 	public List<BoardPiece> pixels = new List<BoardPiece>();
-
 	public List<int> queue = new List<int>();
 
 	public int GetFirst(){
@@ -25,12 +21,10 @@ public class Player {
 		return val;
 	}
 
-	public Player(string _name, Vector3 _offset, int _max_board, int _max_stash){
+	public Player(Glob.player _name,int _max_board, int _max_stash){
 		name = _name;
-		offset = _offset;
 		max_board = _max_board;
 		max_stash = _max_stash;
-
 		for(int I = 0; I < max_stash; I++) queue.Add(I);
 	}
 
@@ -38,7 +32,8 @@ public class Player {
 		if(queue.Count > 0){
 			pixels.Add(_piece);
 			_piece.locat = Glob.locat.STASH;
-			_piece.st_id = GetFirst();
+			_piece.owner = name;
+			_piece.id = GetFirst();
 			return true;
 		}
 		return false;
@@ -48,7 +43,7 @@ public class Player {
 		if(pixels.Count - (max_stash - queue.Count) < max_board){
 			pixels[_id].locat = Glob.locat.BOARD;
 			pixels[_id].pos = new Vector3(_x, _y, -0.7f);
-			queue.Add(pixels[_id].st_id);
+			queue.Add(pixels[_id].id);
 			queue.Sort();
 			return false;
 		}
@@ -65,7 +60,7 @@ public class Player {
 		for(int I = 0; I < pixels.Count; I++){
 			if(pixels[I].locat == Glob.locat.BOARD && queue.Count > 0){
 				pixels[I].locat = Glob.locat.STASH;
-				pixels[I].st_id = GetFirst();
+				pixels[I].id = GetFirst();
 			}
 		}
 	}
