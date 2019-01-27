@@ -17,7 +17,8 @@ public class PieceShop {
 		
 	}
 
-	public void GivePieceToPlayer(Player _player){
+	//TODO: Can cause concurrency problems if 2 players remove at same time
+	public void GivePieceToPlayer(VisualPlayer _player){
 		if(shop_pieces.Count > 0){
 			int id = Random.Range(0, shop_pieces.Count);
 			_player.AddPieceStash(shop_pieces[id]);
