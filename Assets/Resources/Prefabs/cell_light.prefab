@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33521044265334784}
   - component: {fileID: 23748064959120808}
   - component: {fileID: 65093322148806734}
-  m_Layer: 2
-  m_Name: cell_light 1
+  m_Layer: 0
+  m_Name: cell_light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
