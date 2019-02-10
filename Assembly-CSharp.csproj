@@ -53,13 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ScriptsPC\BoardPiece.cs" />
-     <Compile Include="Assets\ScriptsPC\CreateGame.cs" />
-     <Compile Include="Assets\ScriptsPC\DrawBoardGame.cs" />
+     <Compile Include="Assets\ScriptsPC\core\Create1v1.cs" />
+     <Compile Include="Assets\ScriptsPC\core\DrawBoardGame.cs" />
+     <Compile Include="Assets\ScriptsPC\core\LoadGame.cs" />
+     <Compile Include="Assets\ScriptsPC\core\Updater.cs" />
      <Compile Include="Assets\ScriptsPC\Glob.cs" />
-     <Compile Include="Assets\ScriptsPC\LoadGame.cs" />
-     <Compile Include="Assets\ScriptsPC\PieceShop.cs" />
-     <Compile Include="Assets\ScriptsPC\VisualPlayer.cs" />
+     <Compile Include="Assets\ScriptsPC\pieces\BaseItems.cs" />
+     <Compile Include="Assets\ScriptsPC\pieces\BoardPiece.cs" />
+     <Compile Include="Assets\ScriptsPC\pieces\Projectile.cs" />
+     <Compile Include="Assets\ScriptsPC\players\PieceShop.cs" />
+     <Compile Include="Assets\ScriptsPC\players\VisualPlayer.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/home/alb/Documents/Projects/PeekChess/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

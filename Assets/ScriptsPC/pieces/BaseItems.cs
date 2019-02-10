@@ -6,13 +6,17 @@ using UnityEngine.EventSystems;
 
 public class Item {
 	public GameObject model;
-	protected Vector3 pos;
-
+	public Vector3 pos;
 	public Vector3 offset;
 
 	public Glob.type typ;
 	public Glob.locat locat = Glob.locat.NONE;
 	public Glob.player owner = Glob.player.NONE;
+
+	public float health;
+	public float damage;
+	public float at_speed;
+
 	protected static int count = 0;
 	public int id = 0;
 
@@ -27,6 +31,7 @@ public class Item {
 	public void SetPos(Vector3 _pos){
 		pos = _pos + offset;
 	}
+
 }
 
 public class BoardCell : Item {
@@ -44,6 +49,7 @@ public class BoardCell : Item {
 }
 
 public class BoardPiece : Item {
+
 	
 	public BoardPiece() : base() {
 		offset = new Vector3(0, 0, -0.7f);
@@ -52,14 +58,6 @@ public class BoardPiece : Item {
 		model.name = "piece_" + id.ToString();
 		Glob.name_item[model.name] = this;	
 	}
-}
 
-public class Mage : BoardPiece {
-
-	public Mage() : base(){
-		typ = Glob.type.PIECE;
-		model = (GameObject)GameObject.Instantiate(Resources.Load("Prefabs/mage"));
-		model.name = "piece-mage_" + id.ToString();
-		Glob.name_item[model.name] = this;
-	}
+	public virtual void Evolve(){}
 }

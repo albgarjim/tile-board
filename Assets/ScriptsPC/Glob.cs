@@ -10,6 +10,5 @@ public class Glob {
 	public enum player {NONE, PLAYER1, PLAYER2}
 	
 	public static PieceShop shop;
-	public static Dictionary<string, Item> name_item = new Dictionary<string, Item>();	
-
+	public static Dictionary<string, Item> name_item = new Dictionary<string, Item>();
 }
