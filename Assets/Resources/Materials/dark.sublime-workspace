@@ -1,0 +1,453 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ItemIndex",
+				"ItemIndexGeneric"
+			],
+			[
+				"element",
+				"element"
+			],
+			[
+				"package",
+				"package api_server\t ·ʂ"
+			],
+			[
+				"piece",
+				"piece-dummy_97"
+			],
+			[
+				"G",
+				"gameObject"
+			],
+			[
+				"A",
+				"ApiSerMetrics\tstruct ·ʈ"
+			],
+			[
+				"I",
+				"InfoLevel\tlogrus.Level ·Ɩ"
+			],
+			[
+				"p1",
+				"v_p1_stash"
+			],
+			[
+				"stash_",
+				"stash_pieces_id"
+			],
+			[
+				"star",
+				"starId"
+			],
+			[
+				"sere",
+				"serverURL"
+			],
+			[
+				"python",
+				"python"
+			],
+			[
+				"Pa",
+				"-Pair_creator"
+			],
+			[
+				"Move",
+				"-Move_to_UserImages"
+			],
+			[
+				"g",
+				"GenRandItem"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"goimports",
+				"GoSublime: Go to imports section"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install package",
+				"Package Control: Install Package"
+			],
+			[
+				"GoSublime: impor",
+				"GoSublime: Go to imports section"
+			],
+			[
+				"margo",
+				"GoSublime: Edit Margo Extension"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Restart Margo"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 414.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/alb/Documents/Projects/SubProjects/anama.sublime-project",
+		"/home/alb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/alb/Documents/Projects/SubProjects/Assets/Scripts/Controls/CamMove.cs",
+		"/home/alb/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+		"/home/alb/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+		"/home/alb/.config/sublime-text-3/Packages/User/Origami.sublime-settings",
+		"/home/alb/Documents/Projects/Anama/anama.sublime-workspace",
+		"/home/alb/Documents/Projects/PeekChess/ProjectSettings/InputManager.asset",
+		"/home/alb/Documents/Projects/PeekChess/Assets/ScriptsPC/core/LoadGame.cs",
+		"/home/alb/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/alb/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/alb/Documents/CompProg/template/test.out",
+		"/home/alb/Documents/CompProg/template/test.in",
+		"/home/alb/.config/sublime-text-3/Packages/zzz A File Icon zzz/patches/general/multi/OneDarkMaterial.sublime-theme",
+		"/home/alb/Documents/AIKONE/TODO",
+		"/home/alb/Documents/Projects/ideas2",
+		"/home/alb/Desktop/agenda",
+		"/home/alb/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_single_sin/data.py",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/src/components/App.js",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/src/index.js",
+		"/home/alb/Documents/AIKONE/WebApp/web-app/src/styles/index.scss",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/public/index.html",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/src/components/ZZOutfitCreator.js",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/api_server/pair_get_all.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/api_server/api_initialize.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/api_server/frontlog_write_file.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/Dockerfile",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/.env",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-frontend/Dockerfile",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/requirements.txt",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/tests/tests_suite_test.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/app.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/README.md",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/core/core_routes.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/pair-generator-api/core/core_init.go",
+		"/home/alb/Documents/AIKONE/PairGenerator/docker-compose.yml",
+		"/home/alb/Documents/AIKONE/PairGenerator/mounted/logs/server_info.log",
+		"/home/alb/Documents/AIKONE/OutfitGen/pair-generator-api/core/core_routes.go",
+		"/home/alb/Documents/AIKONE/OutfitGen/pair-generator-api/api_server/pair_get_all.go",
+		"/home/alb/Documents/AIKONE/OutfitGen/pair-generator-api/api_server/api_initialize.go",
+		"/home/alb/go/src/Server/go-api/core/core_routes.go",
+		"/home/alb/Documents/Projects/Aikone_fe/docker-compose.yml",
+		"/home/alb/go/src/go-api/core/core_routes.go",
+		"/home/alb/Documents/Projects/OutfitGen/docker-compose.yml",
+		"/home/alb/go/src/go-api/api_server/pairs_get_all.go",
+		"/home/alb/go/src/go-api/api_server/api_initialize.go",
+		"/home/alb/go/src/go-api/Dockerfile",
+		"/home/alb/go/src/docker-compose.yml",
+		"/home/alb/go/src/go-api/api_database/Outfits.txt",
+		"/home/alb/go/src/go-api/api_database/Items.txt",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Controls/ClickDrag.cs",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Aikone/Results/Feature_extraction.txt",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Aikone/Results/Poly_outfit_valid.txt",
+		"/home/alb/Documents/Varios/ddc",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_multiple_sin/config.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_multiple_sin/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_single_sin_optimal/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/interface.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_multiple_sin/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_multiple_sin/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/requirements.txt",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/gan_single_sin_optimal/config.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_multipleSin/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_multipleSin/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_multipleSin/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_multipleSin/config.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_morelayers/config.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_morelayers/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_morelayers/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_morelayers/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/config.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan/data.py",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Menu/MenuIndex.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/Stars/StarSearch.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/TODO",
+		"/home/alb/Desktop/anama2/peekstar/Assets/Scripts/Globals.cs",
+		"/home/alb/Desktop/anama2/peekstar/Assets/Scripts/TODO",
+		"/home/alb/Desktop/anama2/peekstar/Assets/Scripts/Elements/Stars/StarSearch.cs",
+		"/home/alb/Documents/Projects/PeekChess/Assets/ScriptsPC/core/Updater.cs",
+		"/home/alb/Desktop/anama2/peekstar/Assets/Scripts/Elements/Planet.cs",
+		"/home/alb/Desktop/anama2/peekstar/Assets/Scripts/Elements/FieldStar.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Globals.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/FieldStar.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Items/Constellations/FieldConstellation.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Items/Planets/CalcPlanet.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Items/Stars/FieldStar.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Texts/catallog.csv",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/Const.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/Planet.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/Item.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/FieldConstellation.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/DrawMerid.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Controls/CamMove.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Search/StarSearch.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Search/SearchInterface.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Search/ConstSearch.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Search/PlanetSearch.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Menu/VisualLayers.cs",
+		"/home/alb/Documents/Projects/Anama/Assets/Scripts/Elements/CalcPlanet.cs",
+		"/home/alb/Documents/Agenda/varios Aikone",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_moreLayers/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/GAN_resources/gan_sin_model/sin_vector.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_moreLayers/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan_dynamic/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/basic_gan_moreLayers/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan/data.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan_gh/model.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/gan_model/wass_gan_gh/run_train.py",
+		"/media/alb/d22912e5-1e7b-4444-906b-18240212866f/Thesis/README.md",
+		"/home/alb/go/src/web-app/src/components/ItemClothingSlider.js",
+		"/home/alb/go/src/web-app/src/components/ItemPicker.js",
+		"/home/alb/go/src/web-app/.env",
+		"/home/alb/go/src/web-app/Dockerfile",
+		"/home/alb/go/src/web-app/package.json",
+		"/home/alb/go/src/web-app/src/components/App.js",
+		"/home/alb/Documents/Agenda/dockerfile prod",
+		"/home/alb/go/src/go-api/core/core_main.go",
+		"/home/alb/go/src/app-web/client/package.json",
+		"/home/alb/go/src/web-app/src/serviceWorker.js",
+		"/home/alb/go/src/web-app/src/index.js",
+		"/home/alb/go/src/web-app/node_modules/.bin/multicast-dns",
+		"/home/alb/go/src/app-web/Dockerfile",
+		"/home/alb/go/src/app-web/package.json"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 142.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o://9o":
+	{
+		"height": 311.0
+	},
+	"output.GoSublime/HUD":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 44.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.gofmt":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "dark.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"ScriptsPC/TODO.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Projects/PeekChess/PeekChess.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 574.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
