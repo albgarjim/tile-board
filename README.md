@@ -16,7 +16,6 @@ Board framework made in unity for board based games like chess
   - [Introduction](#introduction)
   - [Results](#results)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [License](#license)
   - [Contact](#contact)
 
